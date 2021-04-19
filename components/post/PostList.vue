@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid mt-5 d-flex flex-wrap justify-content-center align-items-center">
-        <Post v-for="index in 5" :key='index' />  
+        <Post v-for="index in 0" :key='index' />  
     </div>
 </template>
 <script>
