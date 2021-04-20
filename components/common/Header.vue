@@ -1,6 +1,6 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light border-0">
-    <a class="navbar-brand" href="/">Köse Yazısı</a>
+    <a class="navbar-brand" href="/">Home</a>
     <nuxt-link
         to="/"
         tag="a"
@@ -16,7 +16,7 @@
                 to="/posts"
                 tag="li"
                 class="nav-item">
-                <a class="nav-link" href="#">Yazılar</a>
+                <a class="nav-link" href="#">Gästebuch</a>
             </nuxt-link>
         </ul>
         <ul class="navbar-nav my-2 my-lg-0">

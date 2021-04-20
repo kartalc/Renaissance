@@ -22,10 +22,34 @@
         },
         created() {
         }, 
-        asyncData(context, callback){
+        asyncData(context){
+            console.log(context)
             return new Promise((resolve, reject) => {
-                
-            }).catch(e => {
+                resolve(
+                    {
+                    fetchedPosts : [
+                        {
+                            id : 1,
+                            title : "Bir Küçük Aslancık varmış",
+                            subTitle : "Kırlarda koşar koşar oynarmış",
+                            text : "Küçük kurbağa güççük gurbaa kuyruğun nerede!!!",
+                            author : "CK"
+                        },
+                        {
+                            id : 2,
+                            title : "İki incatçı keçi",
+                            subTitle : "Köprüde denk gelir",
+                            text : "Bir köprüde karşılaşmış iki inatçı geççi!!!",
+                            author : "Anonim"
+                        },
+                                    ]
+                }
+                )
+            })
+                .then( data =>{
+                    console.log(data);
+                })
+                .catch(e => {
                 context.error(new Error());
             })
             setTimeout(() => {
