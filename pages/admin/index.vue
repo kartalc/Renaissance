@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container d-flex justify-content-center align-items-center">
-            <button @click="$router.push('/admin/new-post')" class="btn btn-dark">Neuer Eintrag</button>
+            <button @click="$router.push('/admin/new-post')" class="btn btn-dark">Eintrag bearbeiten</button>
         </div>
     <PostList :is-admin="true"/>
     </div>

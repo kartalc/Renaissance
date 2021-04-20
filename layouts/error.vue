@@ -1,14 +1,10 @@
 <template>
     <div class="error-page">
-        <h1>Hayda!!</h1>
-        <p>Bu sayfa bulunamadı</p>
+        <h1>Deine Wunsch-Seite gibt's leider nicht</h1>
+        <p>Entschuldigung, die gewünschte Seite konnte nicht gefunden werden.</p>
     </div>
 </template>
-<script>
-        export default {
-        layout: "error"
-    }
-</script>
+
 <style scoped>
 .error-page{
     display: flex;
