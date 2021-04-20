@@ -7,13 +7,18 @@
 <style scoped>
         .bg{
             background-image: url(../../static/images/bg.jpg);
-            height: 300px;
+            height: 500px;
             position: relative;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: #464646;
         }
         .bg h1{
             z-index: 1;
-            font-size: 60px;
-        }
+            font-size: 90px;
+            }
         .overlay{
             width: 100%!important;
             height: 100%!important;
