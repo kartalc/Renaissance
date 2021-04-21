@@ -16,11 +16,18 @@
     </nuxt-link>
 
     <nuxt-link
-        to="/new-post"
+        to="/gaestebuch"
         tag="a"
         class="navbar-brand"
         >Gästebuch
     </nuxt-link>
+
+        <nuxt-link
+        to="/speisekarte"
+        tag="a"
+        class="navbar-brand"
+        >Speisekarte
+        </nuxt-link>
 
     <nuxt-link
         to="/geschichte"
@@ -29,12 +36,12 @@
         >Geschichte
     </nuxt-link>
 
-    <nuxt-link
+    <!-- <nuxt-link
         to="/admin"
         tag="a"
         class="navbar-brand"
         >Admin
-    </nuxt-link>
+    </nuxt-link> -->
 
 
 <!--         <ul class="navbar-nav mr-sm-2">

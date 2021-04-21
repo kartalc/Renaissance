@@ -2,7 +2,7 @@
     <div>
     <Banner />        
 <!--<PostList :posts="fetchedPosts"/> -->
-    <a style="text-align:left">Adresse: Bahnhofstaße 1 | 31134 Hildesheim<br></a>
+    <a style="text-align:left">Adresse: Bahnhofstaße 1 | 31134 Hildesheim | T: 0123 456 78 96<br></a>
 <!--     <a style="text-align:right">Öffnungszeiten: Mo.-Sa. 17- 22:30 | So. 12-15 &amp; 17-22 Uhr</a>
  -->
     <About />
@@ -12,7 +12,6 @@
 <script>
     import PostList from "@/components/post/PostList.vue"
     import About from "@/pages/About.vue"
-    import Kontakt from "@/components/kontakt/Kontakt"
     import Banner from "@/components/common/Banner"
 
         export default {

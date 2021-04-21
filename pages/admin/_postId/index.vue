@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import PostForm from "@/components/admin/PostForm"
+import PostForm from "@/components/Gästebuch"
 export default {
     components : {
         PostForm

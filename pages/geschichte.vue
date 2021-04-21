@@ -1,7 +1,7 @@
 <template>
 <div class="container-fluid p-5 mt-5 bg-secondary text-center text-light">
-    <h1 class="text-white">Geschichte des Restaurants</h1>
-    <h3 style="display: initial;">Liebe Gäste,<br>
+    <h1 class="text-white">Liebe Gäste,</h1>
+    <h3 style="display: initial;">
     seit dem 16. Jahrhundert betreiben wir erfolgreich in Floransa.<br> 
     Nun wagten wir im März 2021 den großen Schritt nach Hildesheim <br>
     und freuen uns, diese ehrwürdige, traditionsreiche Gaststätte <br>
@@ -12,6 +12,6 @@
 <script>
 export default {
     name: "geschichte",
-    layout: "plain"
+    layout: "geschichte"
 }
 </script>

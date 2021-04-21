@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-<!--     <Banner />
- -->    <Nuxt />
+<!--     <Banner /> -->
+    <Nuxt />
   </div>
 </template>
 <script>

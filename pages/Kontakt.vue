@@ -8,3 +8,10 @@ Sollten Sie uns telefonisch kontaktieren wollen, erreichen Sie uns unter 0123 45
     </blockquote>
     </div>
 </template>
+
+<script>
+export default {
+    name: "kontakt",
+    layout: "kontakt"
+}
+</script>
